@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cookies_models"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="CookieBox26", email="cookie-box@cookie-box.info" },
 ]
@@ -18,7 +18,7 @@ classifiers = [
 ]
 dependencies = [
     "torch",
-    "torchinfo",
+    "cookies_utilities",
 ]
 
 [project.optional-dependencies]
