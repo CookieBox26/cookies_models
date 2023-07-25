@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cookies_models"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="CookieBox26", email="cookie-box@cookie-box.info" },
 ]
@@ -15,4 +15,13 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch",
+    "torchinfo",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
 ]

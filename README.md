@@ -14,8 +14,8 @@ Please run the following commands.
 
 ```
 pip uninstall cookies_models  # uninstall the package if already installed
-pip install -e .  #  install the package in editable mode
-python -m unittest discover tests -v  # test
+pip install -e '.[dev]'  #  install the package in editable mode
+pytest  # test
 ```
 If an error occurs, you can fix the code and rerun the tests without having to reinstall the package.
 
